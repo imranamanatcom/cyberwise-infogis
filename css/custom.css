@@ -1,0 +1,626 @@
+/* 
+    Created on : Jan 12, 2016, 2:20:02 PM
+    Author     : Imran Malik
+    Email      : imran@imranamanat.com
+    Website    : http://imranamanat.com
+    campany    : Infogistic 2016 
+*/
+
+
+
+header{
+    position: static;
+    height: 119px;
+
+}
+
+footer{
+    height: 50px;
+    border-top: #333 solid 1px;
+}
+
+
+.contectInformation a {
+    color: #bd212e;
+    text-decoration: none;
+}
+
+.contectInformation a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+.textAlignJustify{
+text-align: justify;
+}
+
+.textAlignJustify b{
+    color: #fef3a5;
+    font-size: 14px;
+    font-weight: bold; 
+}
+
+
+header .campany-logo {
+width: 356px;
+margin-top: 19px;
+margin-left: 25px;
+float: left;
+}
+header .poweredByInfo{
+float: right;
+margin-top: 17px;
+width: 125px;
+margin-right: 26px;
+margin-left: 80%;
+}
+
+header p.line{
+float: left;
+font-size: 11px;
+margin-top: 91px;
+margin-left: -178px;
+}
+
+
+aside.right{
+    float: right;
+    width: 63%;
+    margin-bottom: 1px;
+}
+
+aside.left{
+    float: left;
+    width: 37%;
+    margin-bottom: 1px;
+}
+
+footer .copyright-logo {
+    width: 166px;
+    margin-top: 11px;
+    margin-left: 28px;
+    float: left;
+}
+
+footer .copyright-text {
+margin-top: 24px !important;
+margin-left: 7px !important;
+float: left;
+}
+
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    padding-left: 23px;
+    border-top-left-radius: 15px;
+}
+
+li {
+    float: left;
+}
+
+ul.nav li a {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 8px 35px !important;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+ul.nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #bd212e;
+}
+
+section{
+    position: relative;
+}
+
+.contentView_1, .contentView_2, .contentView_3, .contentView_4{
+    position: absolute;
+    top: 115px;
+    background-color: #BD212E;
+    width: 100%;
+    z-index: 1;
+    left: 0px;
+    display: none;
+/*    border-bottom: 0px solid #111;*/
+    height: auto;
+    box-shadow: 0px 80px 0px 0px #FFFFFF;
+    
+}
+
+
+.case2 > img { margin-top: 1%; margin-left: 18%; width: 62%;}
+
+
+nav{
+width: 616px;
+float: right;
+margin-top: 6px;
+margin-right: 0px;
+}
+
+
+.contectInformation {
+    float: right;
+    margin-top: 51px;
+    margin-right: 115px;
+    font-size: 12px; 
+    letter-spacing: 0px;
+}
+
+
+
+.cyberGuardView .caseTitle, .cyberWiseView .caseTitle, .phishRodView .caseTitle, .cyberAwareView .caseTitle{ margin: 7px 12px; padding: 7px 7px 7px 24px; padding-left: 24px; font-size: 20px; color: rgb(255, 255, 255); background-color: #f43e4d; }
+
+.cyberWiseView > .case1 > section > p:nth-child(1) { color: #FFFFFF; font-size: 15px; margin: 14px 36px; }
+.cyberWiseView > .case1 > section > .list > li{ float: none !important;  width: 72%;}
+.cyberWiseView > .case1 > section > .list { list-style-type: circle; margin-left: 10px; color: #FFFFFF; width: 45%; float: left; font-size: 14px; }
+.cyberWiseView > .case1 > section > .images{ position: relative; float: right; width: 42%; }
+.cyberWiseView .case1{ width: 50%; height: auto; position: relative; float: left; }
+.cyberWiseView > .case1 > section > .images > img:nth-child(2){ margin-top: 10px; }
+.cyberWiseView .case2{ width: 50%; height: auto; position: relative; float: right;}
+
+.cyberGuardView > .case1 > section > p:nth-child(1) { color: #FFFFFF; font-size: 15px; margin: 14px 36px; }
+.cyberGuardView > .case1 > section > .list > li{ float: none !important;  width: 72%;}
+.cyberGuardView > .case1 > section > .list { list-style-type: circle; margin-left: 10px; color: #FFFFFF; width: 100%; float: left;  font-size: 14px;}
+.cyberGuardView > .case1 > section > .images{ position: relative; float: right; width: 42%; }
+.cyberGuardView .case1{ width: 50%; height: auto; position: relative; float: left; }
+.cyberGuardView > .case1 > section > .images > img:nth-child(2){ margin-top: 10px; }
+.cyberGuardView .case2{ width: 50%; height: auto; position: relative; float: right;}
+.cyberGuardView > .case2 > img { margin-top: 1%; margin-left: 21%; width:  57%; }
+
+.phishRodView > .case1 > section > p:nth-child(1) { color: #FFFFFF; font-size: 15px; margin: 14px 36px; }
+.phishRodView > .case1 > section > .list > li{ float: none !important;  width: 72%;}
+.phishRodView > .case1 > section > .list { list-style-type: circle; margin-left: 10px; color: #FFFFFF; width: 100%; float: left;  font-size: 14px;}
+.phishRodView > .case1 > section > .images{ position: relative; float: right; width: 42%; }
+.phishRodView .case1{ width: 50%; height: auto; position: relative; float: left; margin-bottom: 52px; }
+.phishRodView > .case1 > section > .images > img:nth-child(2){ margin-top: 10px; }
+.phishRodView .case2{ width: 50%; height: auto; position: relative; float: right;}
+.phishRodView > .case2 > img { margin-top: 3%; margin-left: 21%; width:  57%; }
+
+
+.cyberWiseView .ButtonDiv, .cyberGuardView .ButtonDiv, .phishRodView  .ButtonDiv{text-align: center; margin-top: 20px; margin-bottom: 20px; padding-right: 13px;}
+
+
+
+
+.list2{float: right !important; width: 46% !important;}
+
+.b1 {
+    padding: 5px 12px;
+    background-color: #f43e4d;
+    border: 1px solid #f43e4d;
+    color: #FFFFFF;
+}
+
+
+.slidesBannerButton_left{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-top: 18%;
+    margin-left: 5%;
+    padding: 12px 24px;
+    background-color: black;
+    border: solid 1px;
+    float: left;
+    font-size: 17px;
+}
+
+.slidesBannerButton_right{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-top: 18%;
+    margin-right: 5%;
+    padding: 12px 24px;
+    background-color: black;
+    border: solid 1px;
+    float: right;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+.slidesBannerButton_b1{ background-color: #1d2c33; color: #FFFFFF; border: solid 1px #1d2c33;  }
+.slidesBannerButton_b2{ background-color: #8ab8ea; color: #000000; border: solid 1px #8ab8ea; }
+.slidesBannerButton_b3{ background-color: #fddb93; color: #000000; border: solid 1px #fddb93;}
+.slidesBannerButton_b4{ background-color: #212121; color: #FFFFFF; border: solid 1px #212121;}
+
+    /* jssor slider arrow navigator skin 22 css */
+    /*
+    .jssora22l                  (normal)
+    .jssora22r                  (normal)
+    .jssora22l:hover            (normal mouseover)
+    .jssora22r:hover            (normal mouseover)
+    .jssora22l.jssora22ldn      (mousedown)
+    .jssora22r.jssora22rdn      (mousedown)
+    */
+    .jssora22l, .jssora22r {
+        display: block;
+        position: absolute;
+        /* size of arrow element */
+        width: 40px;
+        height: 58px;
+        cursor: pointer;
+        background: url('../image/a22.png') center center no-repeat;
+        overflow: hidden;
+    }
+    .jssora22l { background-position: -10px -31px; }
+    .jssora22r { background-position: -70px -31px; }
+    .jssora22l:hover { background-position: -130px -31px; }
+    .jssora22r:hover { background-position: -190px -31px; }
+    .jssora22l.jssora22ldn { background-position: -250px -31px; }
+    .jssora22r.jssora22rdn { background-position: -310px -31px; }
+ 
+
+    .sectionTwo .main-title{margin: 10px 4px; font-weight: bold; font-size: 20px; text-align: center; margin-top: 24px;}
+    .sectionTwo .section-description{text-align: center; padding: 0px 28%; font-size: 16px; margin-bottom: 30px;}
+    
+    .sectionTwo div.sectionTwo-col > p { margin-top: 18px;}
+    .sectionTwo div.sectionTwo-col > p > a { margin-top: 23px; display: block; font-size: 18px; }
+    .sectionTwo div.sectionTwo-col > h2 { text-align: center; font-size: 21px;}
+    
+    
+    
+    
+.features_explore {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+  
+.features_explore .leftgroup{
+    list-style: outside none none;
+    float: left;
+    width: 50%;
+}
+
+.features_explore .leftgroup li{
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 11px;
+}
+
+.features_explore .leftgroup li img{
+    float: left;
+    margin-right: 9px;
+    border-radius: 52px;
+    width: 50px;
+    padding-bottom: 13px;
+    
+}
+    
+
+.btag{
+    text-align: center;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 13px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.menuBlackLine{
+    text-align: center;
+    background-color: #333333;
+    color: #FFFFFF;
+    float: left;
+    width: 100%;
+    padding: 13px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#try-1{
+    cursor: pointer;
+}
+
+#BecomeApartner{
+    width: 400px;
+    background-color: #FFFFFF;
+    display: none;
+    border-radius: 20px;
+}
+
+
+
+form.becomeApartner{
+    font-size: 13px;
+    margin-left: 19px;
+    margin-top: 34px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+form.becomeApartner textarea, form.becomeApartner input, form.becomeApartner select {
+    margin-left: 0%;
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.customertestimonials{
+    background-color: #0a424f;
+    margin: 2px 0px;
+    height: 309px;
+    margin: 10%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+}
+
+.customertestimonials .title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 22px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 26px;
+}
+
+.customertestimonials .blockquote{
+    background: #e0f3fb;
+    border: none;
+    float: left;
+    font-family: 'Open Sans',Arial,sans-serif;
+    width: 45%;
+    -webkit-box-shadow: 10px -10px 0px 2px #48a0bc;
+    -moz-box-shadow: 10px -10px 0px 2px #48a0bc;
+    box-shadow: 10px -10px 0px 2px #48a0bc;
+    margin-left: 3%;
+    padding: 26px !important;
+    font-size: 15px;
+}
+
+#contactUs {
+    background-color: #FFF;
+    padding: 37px;
+    border-radius: 27px;
+    display: none;
+}
+
+
+
+/* Large desktop */
+@media ( min-width : 1200px) {
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media ( min-width : 768px) and (max-width: 992px) {
+    nav {
+        width: 417px;
+        float: right;
+        margin-top: 0px;
+        margin-right: 0px;
+        
+        
+    }
+
+    ul.nav li a {
+        display: block;
+        color: #FFF;
+        text-align: center;
+        padding: 8px 16px !important;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    
+    .contectInformation {
+    margin-top: 31px;
+    margin-right: 24px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    float: right;
+}
+
+
+    .customertestimonials{
+        height: 400px;
+        margin: 0px;
+    }
+    
+}
+    
+/* Landscape phone to portrait tablet */
+@media ( max-width : 767px) {
+    
+    header {
+    position: static;
+    height: 134px;
+}
+
+aside.right {
+    float: left;
+    margin-bottom: 1px;
+    width: 100%;
+}
+
+header .poweredByInfo {
+    display: none;
+}
+
+aside.left {
+    float: left;
+    margin-bottom: 1px;
+    width: 100%;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 0px 0px 23px;
+    overflow: hidden;
+    background-color: #333;
+    border-top-left-radius: 0px !important;
+
+}
+
+    nav {
+        width: 100%;
+        float: right;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+.contectInformation {
+    float: left;
+    margin-top: 10px;
+    margin-left: 7px;
+    font-size: 11px;
+    letter-spacing: 0px;
+    width: 400px;
+}
+    
+header .campany-logo {
+    width: 263px;
+    margin-top: 9px;
+    margin-left: 8px;
+    float: left;
+}
+
+header p.line {
+    float: right;
+    font-size: 10px;
+    margin-top: 25px;
+    margin-right: 17px;
+    margin-bottom: 17px;
+}
+
+    
+ul.nav li a {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 8px 24px !important;
+    text-decoration: none;
+}
+
+
+.cyberWiseView .case2, .cyberWiseView .case1{ width: 100%; float: left; }
+.cyberWiseView > .case1 > section > .images { margin-right: 20px; }
+
+.cyberGuardView .case2, .cyberGuardView .case1{ width: 100%; float: left; }
+.cyberGuardView > .case1 > section > .images { margin-right: 20px; }
+
+.phishRodView .case2, .phishRodView .case1{ width: 100%; float: left; }
+.phishRodView > .case1 > section > .images { margin-right: 20px; }
+
+.case2 > img { 
+    margin-top: 5%;
+    margin-left: 17%;
+    width: 65%;
+    padding-bottom: 24px; 
+}
+
+.features_explore .leftgroup{
+    list-style: outside none none;
+    float: left;
+    width: 100%;
+}
+
+.menuBlackLine {
+    padding: 12px;
+    font-size: 13px;
+}
+
+.customertestimonials{
+    height: 600px;
+    margin: 0px;
+}
+    
+}
+    
+/* Landscape phones and down */
+@media ( max-width : 480px) {
+    
+    header {
+        height: 123px;
+    }
+    
+    header .poweredByInfo {
+        display: none;
+    }
+    
+    header p.line {
+        margin-top: 25px;
+        margin-left: 37px;
+        font-size: 9px;
+    }
+    
+    ul.nav li a {
+        padding: 8px 7px !important;
+    }
+    
+.contectInformation {
+    float: left;
+    margin-top: 10px;
+    margin-left: 7px;
+    font-size: 11px;
+    letter-spacing: 0px;
+    width: 400px;
+}
+     
+    header .campany-logo {
+        width: 201px;
+        margin-left: 15px;
+        float: left;
+    }
+    
+   nav {
+        width: 100%;
+        font-size: 12px;
+        float: right;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+    
+    .features_explore {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+    .features_explore .leftgroup{
+    list-style: outside none none;
+    float: left;
+    width: 100%;
+}
+
+.btag {
+    padding: 8px;
+    font-size: 13px;
+}
+
+.menuBlackLine {
+    padding: 12px;
+    font-size: 13px;
+}
+
+
+.customertestimonials{
+    height: 600px;
+    margin: 0px;
+}
+
+}

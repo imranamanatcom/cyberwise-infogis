@@ -1,0 +1,190 @@
+/*
+<!--
+........................................................................................
+........................................................................................
+........................................................................................
+
+HHHHHHHHH     HHHHHHHHH                                     kkkkkkkk           
+H:::::::H     H:::::::H                                     k::::::k           
+H:::::::H     H:::::::H                                     k::::::k           
+HH::::::H     H::::::HH                                     k::::::k           
+  H:::::H     H:::::H    aaaaaaaaaaaaa      cccccccccccccccc k:::::k    kkkkkkk
+  H:::::H     H:::::H    a::::::::::::a   cc:::::::::::::::c k:::::k   k:::::k 
+  H::::::HHHHH::::::H    aaaaaaaaa:::::a c:::::::::::::::::c k:::::k  k:::::k  
+  H:::::::::::::::::H             a::::ac:::::::cccccc:::::c k:::::k k:::::k   
+  H:::::::::::::::::H      aaaaaaa:::::ac::::::c     ccccccc k::::::k:::::k    
+  H::::::HHHHH::::::H    aa::::::::::::ac:::::c              k:::::::::::k     
+  H:::::H     H:::::H   a::::aaaa::::::ac:::::c              k:::::::::::k     
+  H:::::H     H:::::H  a::::a    a:::::ac::::::c     ccccccc k::::::k:::::k    
+HH::::::H     H::::::HHa::::a    a:::::ac:::::::cccccc:::::ck::::::k k:::::k   
+H:::::::H     H:::::::Ha:::::aaaa::::::a c:::::::::::::::::ck::::::k  k:::::k  
+H:::::::H     H:::::::H a::::::::::aa:::a cc:::::::::::::::ck::::::k   k:::::k 
+HHHHHHHHH     HHHHHHHHH  aaaaaaaaaa  aaaa   cccccccccccccccckkkkkkkk    kkkkkkk
+
+........................................................................................
+........ N: IMRAN MALIK, Y: 2015 W: www.imranmalik.net C: Infogistic  ..................
+........................................................................................
+*/
+
+/****************************************************************************************
+             *  reset CSS 
+             */
+
+                    html, body, div, span, object, iframe,
+                    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+                    abbr, address, cite, code,
+                    del, dfn, em, img, ins, kbd, q, samp,
+                    small, strong, sub, sup, var,
+                    b, i, dl, dt, dd, ol, ul, li,
+                    fieldset, form, label, legend,
+                    table, caption, tbody, tfoot, thead, tr, th, td,
+                    article, aside, canvas, details, figcaption, figure, 
+                    footer, header, hgroup, menu, nav, section, summary,
+                    time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; }
+                    body { background-color:#FFFFFF; line-height:1; font-family: tahoma,arial,verdana,sans-serif,Lucida Sans; font-size: 11px; text-align:left;}
+                    article,aside,details,figcaption,figure,
+                    footer,header,hgroup,menu,nav,section { display:block; }
+                    nav ul { list-style:none;}
+                    blockquote, q {quotes:none;}
+                    blockquote:before, blockquote:after, q:before, q:after {content:''; content:none; }
+                    a {margin:0; padding:0; font-size:100%; color: #343A49; vertical-align:baseline; background:transparent; text-decoration: none; }
+                    a:hover{color: #343A49;}
+                    /* change colours to suit your needs */
+                    ins {background-color:#ff9; color:#000; text-decoration:none; }
+
+                    /* change colours to suit your needs */
+                    mark { background-color:#ff9; color:#000;  font-style:italic; font-weight:bold;}
+                    del{text-decoration: line-through;}
+                    abbr[title], dfn[title] {border-bottom:1px dotted; cursor:help;}
+                    table {border-collapse:collapse; border-spacing:0;}
+                    div{ text-align:left;}
+                    /* change border colour to suit your needs */
+                    hr{display:block; height:1px; border:0; border-top:1px solid #cccccc; margin:1em 0; padding:0;}
+                    input, select {vertical-align:middle;}
+
+                    textarea:focus, input:focus{
+                    outline: 0;
+                    }
+                   
+                    ul.left {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        color: #FFFFFF;
+                        position: absolute;
+                        top: 12px;
+                        left: 0px;
+                        
+                    }
+                    
+                    
+                    ul.right {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        color: #FFFFFF;
+                        position: absolute;
+                        top: 12px;
+                        right: 0px;
+                    }
+
+                    ul.left li, ul.right li {
+                        display: inline;
+                        background-color: #bb1e2c;
+                        padding: 10px 31px;
+                        color: #FFFFFF;
+                        border-right:solid 1px #cccccc;
+                    }
+                    
+                    li.borderleft{
+                    border-left:solid 1px #cccccc;
+                    }
+                    
+                    .flexslider{
+                        position: absolute;
+                        width: 990px;
+                        height: 300px;
+                        top: 0px;
+                        left: 0px;
+                       
+                    }
+                    
+                    .flexslider .slides{
+                        margin-left: -5px;
+                        margin-top: -5px;
+                    }
+                    
+                    .bannerSliderBox{
+                    position: absolute; top: 142px; left: 50%; height: 300px; width: 990px; margin-left: -495px;
+                    }
+                    
+                    .contentAreaSmallBoxes{
+                        position: relative; float: left; margin-left: -1px; width: 333px; 
+                    }
+                    .contentAreaContent{
+                        position: relative; padding: 10px; font-size: 14px; line-height: 20px;
+                    }
+                    .contentAreaTitleBox
+                    {
+                        font-weight: bold; margin: 1px; background-color: #bb1e2c; color: #FFFFFF; font-size: 12px; padding: 9px 10px;
+                    } 
+                    
+                    .marquee {
+                        width: 300px; /* the plugin works for responsive layouts so width is not necessary */
+                        overflow: hidden;
+                        background-color: #cccccc;
+                    }
+                    
+                    ul.unorderedList {
+                        list-style-type: circle;
+                        margin-left: 15px;
+                    }
+                    
+                    ul.unorderedList2 {
+                        list-style-type: circle;
+                        margin-left: 15px;
+                        padding: 9px;
+                    }
+                    
+                    ul.unorderedList2 li{
+                        padding: 0px;
+                        line-height: 16px;
+                    }
+                    
+                    #footerContainer table tbody tr td:nth-child(2){
+                        visibility: hidden;
+                    }
+                    
+                                        .dialog p:nth-child(1){
+                        visibility: hidden;
+                    }
+                    
+                    
+                    
+                    .BodyContent{padding: 12px 13px; line-height: 20px; font-size: 13px;}
+                    
+                    
+                    .formTitle{position: absolute; top: 8px; left: 50px; font-size: 21px; color:#BB1E2C;}
+                    
+                    .bookADemoStyleBox{border: solid 1px #808285; padding: 7px 12px; width: 250px;}
+                    .bookADemo .name{position: absolute; left: 50px; top: 54px;}
+                    .bookADemo .contantNo{position: absolute; left: 356px; top: 54px;}
+                    .bookADemo .emailID{position: absolute; left: 50px; top: 100px;}
+                    .bookADemo .organizationName{position: absolute; left: 356px; top: 100px;}
+                    .bookADemo .additionalInformation{position: absolute; left: 50px; top: 147px; height: 90px; width: 557px !important;}
+                    .bookADemo .submit{position: absolute; top: 274px; left: 493px; cursor: pointer; background-color: rgb(187, 30, 44); border: 1px solid rgb(187, 30, 44) !important; color: rgb(255, 255, 255); padding: 6px 42px; font-weight: bold;}
+                    
+                    
+                    
+                    header .headerCon{position: absolute; left: 50%; top: 0px; width: 990px; height: 100px; margin-left: -495px;}
+                    header .cyberWiseLogo{position: absolute; top: 9px; left: 31px;}
+                    header .hSubDecp{position: absolute; top: 42px; left: 50%; left: 286px; font-size: 21px; width: 520px;}
+                    header .RedLinenav{position: absolute; top: 100px; left: 0px; width: 100%; background-color: #bb1e2c; height: 35px;}
+                    header nav{position: absolute; top: 100px; left: 50%; width: 990px;  margin-left: -495px; background-color: #bb1e2c; height: 35px;}
+                    
+                    footer .footerContainer{position: absolute; margin-top: 100px; top: 700px;  height: 5px; height: 71px;  width: 100%; left: 0px; border-top: #bb1f2e solid 1px;}
+                    footer .contactusfooterContainer{position: absolute; margin-top: 100px; top: 900px;  height: 5px; height: 71px;  width: 100%; left: 0px; border-top: #bb1f2e solid 1px;}
+                    footer .boardOfAdvisorFooterContainer{position: absolute; margin-top: 100px; top: 920px;  height: 5px; height: 71px;  width: 100%; left: 0px; border-top: #bb1f2e solid 1px;}
+                    footer .footerContainerCenter{position: absolute; top: 0px; left: 50%; height: 70px; width: 990px; margin-left: -495px;}
+                    footer .InfogisticLogo{position: absolute; top: 17px; left: 20px;}
+                    footer .allrr{position: absolute; font-size: 9px; top: 24px; left: 213px;}
